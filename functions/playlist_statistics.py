@@ -10,7 +10,7 @@ def get_playlist_statistics(playlist_uri):
     """
 
     # make a dictionary of the number of times an artist appears in a playlist
-    playlist_tracks = get_playlist_tracks(spotify)
+    playlist_tracks = get_playlist_tracks(playlist_uri)
     artist_count = {}
     playlist_size = len(playlist_tracks)
 
